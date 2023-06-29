@@ -1,0 +1,23 @@
+/*RESET*/
+*{margin:0; padding:0; box-sizing: border-box;outline:none;}
+
+body{font-family: Arial; color: #fff; display:grid; grid-template-columns: 75% 25%;
+grid-template-areas:'cabecalho formulario'
+                    'principal formulario'
+                    'rodape formulario';
+height:100vh;
+}
+/*HEADER(cabeçalho)*/
+header{grid-area:cabecalho;}
+.logo h1{color:#274083; margin: left 10px;}
+.logo img{width:80px;}
+.logo{display:flex; align-items: center; border:1px solid red; padding:10px 30px;}
+
+/*MAIN(principal)*/
+main{grid-area:principal;}
+
+/*ASIDE*/
+aside{grid-area:formulario;}
+
+/*FOOTER(rodapé)*/
+footer{grid-area:rodape;}
