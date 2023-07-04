@@ -28,7 +28,7 @@ main h3{width:80%;}
 
 /*ASIDE*/
 aside{grid-area:formulario;background-color:var(--corAzul);}
-aside > h1{text-align:center; margin-bottom:20px;}
+aside > h1{text-align:center; margin-bottom:20px; margin-top: 20px;}
 aside form{width:90%; margin:0 auto; display:flex; flex-direction: column; gap:30px;}
 aside input, aside select, aside button{padding:15px; font-size:16px; border:none;}
 
