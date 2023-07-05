@@ -53,3 +53,28 @@ footer{
 footer section{margin: 5px 20px;}
 footer .rodape-titulo{margin-bottom: 20px;}
 footer .rodape-conteudo{text-align: justify; line-height: 0.7cm;}
+
+/*RESPONSIVIDADE*/
+/*tablet*/
+@media screen and (max-width:1200px) {
+    body{grid-template-columns: 100%;
+         grid-template-areas:'cabecalho'
+                            'principal'
+                            'rodape'
+                            'formulario';
+    }
+
+    main figure{margin-right: 20px;}
+    main{height: 50vh;}
+
+}
+
+/*smartphone*/
+@media screen and (max-width: 750px) {
+    main{background: #48a0df; background-image: url(../imagens/livro2.png); background-size: 200px; background-repeat: no-repeat; background-position: center; background-blend-mode:multiply;}
+
+    main figure{display: none;}
+    main h1, main h3{width:100%; text-shadow: 2px 1px 2px #000}
+    footer{flex-direction: column; row-gap: 20px;}
+    
+}
